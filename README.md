@@ -5,3 +5,7 @@ The Big Social Project Hospital
 Installing packages
 + libasio-dev
 + libwebsocketpp-dev
+
+## Docker
++ docker build . -t backend  
++ docker run -it backend bash
