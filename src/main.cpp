@@ -12,7 +12,7 @@ int main() {
     tcp::socket socket(io_service);
     acceptor.accept(socket);
 
-    std::string message = "Hello, world!";
+    std::string message = "(: Hello, Alexey :)!";
     std::stringstream ss;
     ss << "HTTP/1.1 200 OK\r\n";
     ss << "Content-Type: text/plain\r\n";
